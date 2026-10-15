@@ -1,6 +1,6 @@
 {
   "name": "hangout",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Voice and text chat for two",
   "author": "Hangout",
   "main": "main.js",

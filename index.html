@@ -65,21 +65,21 @@
 <div id="updateBar" class="hidden"><span id="updateText"></span><button id="updateBtn" class="primary"></button></div>
 
 <section id="join">
-  <div class="box">
-    <h1>Hangout</h1>
-    <p class="sub">A private voice and text room for two.</p>
-    <label for="name">Your name</label>
-    <input id="name" maxlength="24" placeholder="e.g. Sam" autofocus>
-    <label>&nbsp;</label>
-    <button id="create" class="primary" style="width:100%">Create a room</button>
-    <div class="divider">or join your friend's room</div>
-    <label for="code">Room code</label>
-    <div class="row">
-      <input id="code" placeholder="hang-xxxxxx" spellcheck="false">
-      <button id="joinBtn" style="flex:none">Join</button>
+    <div class="box">
+        <h1>Hangout</h1>
+        <p class="sub">A private voice and text room for two. (v1.0.1)</p>
+        <label for="name">Your name</label>
+        <input id="name" maxlength="24" placeholder="e.g. Sam" autofocus>
+        <label>&nbsp;</label>
+        <button id="create" class="primary" style="width:100%">Create a room</button>
+        <div class="divider">or join your friend's room</div>
+        <label for="code">Room code</label>
+        <div class="row">
+            <input id="code" placeholder="hang-xxxxxx" spellcheck="false">
+            <button id="joinBtn" style="flex:none">Join</button>
+        </div>
+        <div id="err" role="alert"></div>
     </div>
-    <div id="err" role="alert"></div>
-  </div>
 </section>
 
 <section id="room" class="hidden">
