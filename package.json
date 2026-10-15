@@ -22,7 +22,7 @@
     "directories": { "output": "dist" },
     "publish": {
       "provider": "github",
-      "owner": "YOUR-GITHUB-USERNAME",
+         "owner": "sb-fivem",
       "repo": "hangout",
       "releaseType": "release"
     },
