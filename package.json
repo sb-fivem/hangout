@@ -22,12 +22,14 @@
     "directories": { "output": "dist" },
     "publish": {
       "provider": "github",
-         "owner": "sb-fivem",
+      "owner": "sb-fivem",
       "repo": "hangout",
       "releaseType": "release"
     },
-    "win": { "target": [{ "target": "nsis", "arch": ["x64"] }], "signAndEditExecutable": false },
-    "nsis": { "oneClick": true, "perMachine": false, "artifactName": "Hangout-Setup-${version}.exe" },
-    "mac": { "identity": null, "target": [{ "target": "zip", "arch": ["x64", "arm64"] }] }
+
+"win": { "target": [{ "target": "nsis", "arch": ["x64"] }], "icon": "assets/icon.png" },
+"mac": { "identity": null, "icon": "assets/icon.png", "target": [{ "target": "zip", "arch": ["x64", "arm64"] }] }
+"nsis": { "oneClick": true, "perMachine": false, "artifactName": "Hangout-Setup-${version}.exe" },
+    
   }
 }

@@ -12,6 +12,7 @@ function createWindow() {
   win = new BrowserWindow({
     width: 980, height: 660, minWidth: 720, minHeight: 480,
     backgroundColor: '#1b2230', autoHideMenuBar: true,
+    icon: path.join(__dirname, 'assets', 'icon.png'),
     webPreferences: { contextIsolation: true, nodeIntegration: false, preload: path.join(__dirname, 'preload.js') }
   });
   win.loadFile('index.html');
